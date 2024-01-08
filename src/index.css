@@ -5,6 +5,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap");
 
 @layer base {
+  html {
+    @apply text-custom;
+  }
+
   * {
     @apply m-0;
     @apply p-0;
@@ -34,37 +38,41 @@
     @apply items-center;
     @apply gap-20;
   }
+
+  .menu{
+    @apply flex;
+    @apply flex-col;
+    @apply items-center;
+    @apply gap-16;
+  }
 }
 
 @layer utilities {
-    .after{
-        @apply after:content-[''];
-        @apply after:h-1;
-        @apply after:w-32;
-        @apply after:bg-yellow;
-        @apply after:absolute;
-        @apply after:top-6;
-        @apply after:right-0;
-    }
+  .h1 {
+    @apply text-xl;
+    @apply text-yellow;
+    @apply text-center;
+    @apply font-light;
+    @apply relative;
+  }
 
-    .before{
-        @apply before:content-[''];
-        @apply before:h-1;
-        @apply before:w-32;
-        @apply before:bg-yellow;
-        @apply before:absolute;
-        @apply before:top-6;
-        @apply before:left-0;
-    }
+  .after {
+    @apply after:content-[''];
+    @apply after:h-1;
+    @apply after:w-32;
+    @apply after:bg-yellow;
+    @apply after:absolute;
+    @apply after:top-6;
+    @apply after:right-0;
+  }
 
-    .h1{
-        @apply text-yellow;
-        @apply text-center;
-        @apply w-full;
-        @apply text-5xl;
-        @apply font-light;
-        @apply relative;
-    }
+  .before {
+    @apply before:content-[''];
+    @apply before:h-1;
+    @apply before:w-32;
+    @apply before:bg-yellow;
+    @apply before:absolute;
+    @apply before:top-6;
+    @apply before:left-0;
+  }
 }
-
-

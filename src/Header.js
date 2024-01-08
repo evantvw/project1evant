@@ -1,6 +1,6 @@
 const Header = () => {
     return ( 
-        <header className="w-3/5">
+        <header className="self-stretch">
             <h1 className="h1 after before">PIZZA WORLDS CO.</h1>
         </header>
      );
