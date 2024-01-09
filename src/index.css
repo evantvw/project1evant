@@ -26,7 +26,6 @@
     @apply border-b-10;
     @apply border-yellow;
     @apply min-h-screen;
-    /* @apply overflow-x-hidden; */
   }
 }
 
@@ -44,6 +43,19 @@
 
   .menu{
     @apply flex;
+    @apply items-center;
+    @apply gap-16;
+  }
+
+  .italian{
+    @apply flex;
+    @apply flex-col;
+    @apply items-center;
+    @apply gap-16;
+  }
+
+  .american{
+    @apply flex;
     @apply flex-col;
     @apply items-center;
     @apply gap-16;
@@ -57,9 +69,28 @@
     @apply px-10;
     @apply items-center;
     @apply justify-start;
-    @apply gap-20;
+    @apply gap-16;
     @apply text-default;
     @apply text-3xl;
+  }
+
+  .tabs{
+    @apply hover:bg-black;
+    @apply hover:rounded-3xl;
+    @apply px-4;
+    @apply py-2;
+  }
+
+  .pizza{
+    @apply flex;
+    @apply gap-12;
+    @apply mb-6;
+  }
+
+  .soldout{
+    @apply grayscale;
+    @apply text-gray;
+    @apply opacity-80;
   }
 }
 
@@ -70,6 +101,27 @@
     @apply text-center;
     @apply font-light;
     @apply relative;
+  }
+
+  .h2{
+    @apply py-4;
+    @apply border-y-2;
+    @apply border-black;
+    @apply text-4xl;
+    @apply font-medium;
+  }
+
+  .h3{
+    @apply text-3xl;
+    @apply font-normal;
+  }
+
+  .p{
+    @apply text-base2;
+  }
+
+  .span{
+    @apply text-base3;
   }
 
   .after {

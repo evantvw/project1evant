@@ -1,11 +1,11 @@
 const Pizza = ({ data }) => {
   return (
-    <li>
-      <img src={data.photoName} alt={data.name} />
+    <li className={`pizza ${data.soldOut? "soldout" : ""}`}>
+      <img src={data.photoName} alt={data.name} className="w-60 self-start aspect-square"/>
       <div>
-        <h3>{data.name}</h3>
-        <p>{data.ingredients}</p>
-        <span>{data.soldOut ? "SOLD OUT" : data.price}</span>
+        <h3 className="h3">{data.name}</h3>
+        <p className="p font-light">{data.ingredients}</p>
+        <span className="span">{data.soldOut ? "SOLD OUT" : data.price}</span>
       </div>
     </li>
   );
