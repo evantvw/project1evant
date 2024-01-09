@@ -68,7 +68,7 @@
     @apply items-center;
     @apply justify-start;
     @apply gap-16;
-    @apply text-default;
+    @apply text-black;
     @apply text-3xl;
   }
 
@@ -77,10 +77,24 @@
     @apply w-full;
     @apply h-60;
     @apply px-10;
+    @apply flex;
+    @apply flex-col;
+    @apply items-center;
+    @apply justify-center;
+    @apply gap-5;
+    @apply text-black;
+  }
+
+  .socials{
+    @apply flex;
+    @apply w-1/2;
+    @apply justify-center;
+    @apply gap-12;
+    @apply text-base3;
   }
 
   .tabs{
-    @apply hover:bg-black;
+    @apply hover:bg-default;
     @apply hover:rounded-3xl;
     @apply px-4;
     @apply py-2;
