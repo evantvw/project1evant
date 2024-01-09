@@ -1,7 +1,7 @@
 const Header = () => {
     return ( 
         <header className="self-stretch">
-            <h1 className="h1 after before">PIZZA WORLDS CO.</h1>
+            <h1 className="h1 after before">OUR MENU</h1>
         </header>
      );
 }

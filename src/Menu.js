@@ -55,7 +55,6 @@ const Data = [
 const Menu = () => {
   return (
     <main className="menu">
-      <h2>OUR MENU</h2>
       <ul>
         {Data.map((pizza) => (
           <Pizza data={pizza} key={pizza.name} />

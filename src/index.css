@@ -18,13 +18,15 @@
   body {
     @apply bg-default;
     @apply font-sans;
-    @apply p-12;
+    /* @apply p-12; */
+    @apply pt-0;
     @apply pb-24;
     @apply font-normal;
     @apply text-black;
     @apply border-b-10;
     @apply border-yellow;
     @apply min-h-screen;
+    /* @apply overflow-x-hidden; */
   }
 }
 
@@ -32,6 +34,7 @@
   .container {
     @apply max-w-7xl;
     @apply my-0;
+    @apply pt-10;
     @apply mx-auto;
     @apply flex;
     @apply flex-col;
@@ -45,11 +48,24 @@
     @apply items-center;
     @apply gap-16;
   }
+
+  .navbar{
+    @apply flex;
+    @apply bg-yellow;
+    @apply w-full;
+    @apply h-20;
+    @apply px-10;
+    @apply items-center;
+    @apply justify-start;
+    @apply gap-20;
+    @apply text-default;
+    @apply text-3xl;
+  }
 }
 
 @layer utilities {
   .h1 {
-    @apply text-xl;
+    @apply text-xxl;
     @apply text-yellow;
     @apply text-center;
     @apply font-light;
@@ -62,8 +78,8 @@
     @apply after:w-32;
     @apply after:bg-yellow;
     @apply after:absolute;
-    @apply after:top-6;
-    @apply after:right-0;
+    @apply after:top-14;
+    @apply after:right-64;
   }
 
   .before {
@@ -72,7 +88,7 @@
     @apply before:w-32;
     @apply before:bg-yellow;
     @apply before:absolute;
-    @apply before:top-6;
-    @apply before:left-0;
+    @apply before:top-14;
+    @apply before:left-64;
   }
 }

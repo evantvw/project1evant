@@ -16,13 +16,12 @@ module.exports = {
     borderWidth: {
       10: "1.6rem",
     },
-    // fontSize: {
-    //   'custom': "62.5%",
-    // },
     fontSize: {
       sm: '0.8rem',
       base: '1rem',
-      xl: '5.2rem',
+      '3xl': '1.953rem',
+      '4xl': '2.441rem',
+      'xxl': '5.2rem',
       custom: '62.5%',
     }
   },
