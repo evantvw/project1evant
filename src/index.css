@@ -18,14 +18,11 @@
   body {
     @apply bg-default;
     @apply font-sans;
-    /* @apply p-12; */
-    @apply pt-0;
-    @apply pb-24;
     @apply font-normal;
     @apply text-black;
-    @apply border-b-10;
-    @apply border-yellow;
-    @apply min-h-screen;
+    /* @apply border-b-10;
+    @apply border-yellow; */
+    /* @apply min-h-screen; */
   }
 }
 
@@ -34,6 +31,7 @@
     @apply max-w-7xl;
     @apply my-0;
     @apply pt-10;
+    @apply pb-20;
     @apply mx-auto;
     @apply flex;
     @apply flex-col;
@@ -74,6 +72,13 @@
     @apply text-3xl;
   }
 
+  .footer{
+    @apply bg-yellow;
+    @apply w-full;
+    @apply h-60;
+    @apply px-10;
+  }
+
   .tabs{
     @apply hover:bg-black;
     @apply hover:rounded-3xl;
@@ -88,9 +93,7 @@
   }
 
   .soldout{
-    @apply grayscale;
     @apply text-gray;
-    @apply opacity-80;
   }
 }
 

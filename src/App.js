@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import Header from "./Header";
 import Menu from "./Menu";
 import Navbar from "./Navbar";
@@ -10,6 +11,7 @@ function App() {
         <Header />
         <Menu />
       </div>
+      <Footer />
     </>
   );
 }
