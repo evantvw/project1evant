@@ -39,27 +39,27 @@
     @apply gap-20;
   }
 
-  .menu{
+  .menu {
     @apply flex;
     @apply items-center;
     @apply gap-16;
   }
 
-  .italian{
-    @apply flex;
-    @apply flex-col;
-    @apply items-center;
-    @apply gap-16;
-  }
-
-  .american{
+  .italian {
     @apply flex;
     @apply flex-col;
     @apply items-center;
     @apply gap-16;
   }
 
-  .navbar{
+  .american {
+    @apply flex;
+    @apply flex-col;
+    @apply items-center;
+    @apply gap-16;
+  }
+
+  .navbar {
     @apply flex;
     @apply bg-yellow;
     @apply w-full;
@@ -72,7 +72,7 @@
     @apply text-3xl;
   }
 
-  .footer{
+  .footer {
     @apply bg-yellow;
     @apply w-full;
     @apply h-60;
@@ -85,7 +85,7 @@
     @apply text-black;
   }
 
-  .socials{
+  .socials {
     @apply flex;
     @apply w-1/2;
     @apply justify-center;
@@ -93,20 +93,20 @@
     @apply text-base3;
   }
 
-  .tabs{
+  .tabs {
     @apply hover:bg-default;
     @apply hover:rounded-3xl;
     @apply px-4;
     @apply py-2;
   }
 
-  .pizza{
+  .pizza {
     @apply flex;
     @apply gap-12;
     @apply mb-6;
   }
 
-  .soldout{
+  .soldout {
     @apply text-gray;
   }
 }
@@ -120,7 +120,7 @@
     @apply relative;
   }
 
-  .h2{
+  .h2 {
     @apply py-4;
     @apply border-y-2;
     @apply border-black;
@@ -128,16 +128,16 @@
     @apply font-medium;
   }
 
-  .h3{
+  .h3 {
     @apply text-3xl;
     @apply font-normal;
   }
 
-  .p{
+  .p {
     @apply text-base2;
   }
 
-  .span{
+  .span {
     @apply text-base3;
   }
 

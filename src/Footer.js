@@ -13,10 +13,10 @@ const Footer = () => {
         thousand customers worldwide.
       </p>
       <div className="socials">
-        <FaYoutube className="hover:text-default"/>
-        <FaInstagram className="hover:text-default"/>
-        <FaFacebook className="hover:text-default"/>
-        <FaTwitter className="hover:text-default"/>
+        <FaYoutube className="hover:text-default" />
+        <FaInstagram className="hover:text-default" />
+        <FaFacebook className="hover:text-default" />
+        <FaTwitter className="hover:text-default" />
       </div>
     </footer>
   );
