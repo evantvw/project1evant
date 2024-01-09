@@ -4,11 +4,9 @@ const Pizza = ({ data }) => {
       <img
         src={data.photoName}
         alt={data.name}
-        className={`w-60 self-start aspect-square rounded-xl ${
-          data.soldOut ? "grayscale opacity-80" : ""
-        }`}
+        className={`img ${data.soldOut ? "grayscale opacity-80" : ""}`}
       />
-      <div>
+      <div className="flex flex-col gap-2">
         <h3 className="h3">{data.name}</h3>
         <p className="p font-light">{data.ingredients}</p>
         <span className="span">{data.soldOut ? "SOLD OUT" : data.price}</span>
