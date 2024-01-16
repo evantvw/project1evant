@@ -5,7 +5,7 @@ const Navbar = () => {
       <div className="cursor-pointer tabs">Home</div>
       <div className="cursor-pointer tabs">Menu</div>
       <div className="cursor-pointer tabs">Cart</div>
-      <div className="cursor-pointer tabs">Sign Out</div>
+      <div className="cursor-pointer tabs ml-auto">Sign Out</div>
     </nav>
   );
 };
